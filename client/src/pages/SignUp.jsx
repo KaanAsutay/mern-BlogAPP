@@ -33,17 +33,29 @@ export default function SignUp() {
 
               <div className="">
                 <Label value='Your username' />
-                <TextInput type='text' placeholder='Username' id='username' />
+                <TextInput 
+                type='text' 
+                placeholder='Username' 
+                id='username' 
+                />
               </div>
 
               <div className="">
                 <Label value='Your email' />
-                <TextInput type='text' placeholder='name@company.com' id='email' />
+                <TextInput 
+                type='text' 
+                placeholder='name@company.com' 
+                id='email' 
+                />
               </div>
 
               <div className="">
                 <Label value='Your password' />
-                <TextInput type='text' placeholder='Password' id='password' />
+                <TextInput 
+                type='text' 
+                placeholder='Password' 
+                id='password' 
+                />
               </div>
 
               <Button gradientDuoTone='purpleToPink' type='submit'>
@@ -51,16 +63,15 @@ export default function SignUp() {
               </Button>
 
             </form>
+
             <div className="flex gap-2 text-sm mt-5">
               <span>Have an account?</span>
               <Link to='/sign-in' className='text-blue-500'>
               Sign In
               </Link>
             </div>
+            
         </div>
-
-
       </div>
     </div>
-  )
-}
+  )}
