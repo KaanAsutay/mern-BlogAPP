@@ -35,7 +35,7 @@ export default function CommentSection({postId}) {
             } catch (error) {
                 setCommentError(error.message)
             }
-        }
+        };
 
         useEffect(() => {
             const getComments = async () => {

@@ -28,7 +28,7 @@ export default function Comment({ comment, onLike, onEdit }) {
     const handleEdit = () => {
       setIsEditing(true);
       setEditedContent(comment.content)
-    }
+    };
 
     const handleSave = async () => {
       try {
@@ -48,7 +48,7 @@ export default function Comment({ comment, onLike, onEdit }) {
       } catch (error) {
         console.log(error.message)
       }
-    }
+    };
 
   return (
     <div className="flex p-4 border-b dark:border-gray-600 text-sm">
